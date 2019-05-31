@@ -124,7 +124,7 @@ plt.show()
 
 fashion_model.save("fashion_model_dropout.h5py")
 
-#! PREDICTION
+#!PREDICTION
 predicted_classes = fashion_model.predict(test_X)
 predicted_classes = np.argmax(np.round(predicted_classes), axis=1)
 correct = np.where(predicted_classes == test_Y)[0]
