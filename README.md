@@ -1,1 +1,1 @@
-# Machine Learning Examples by Gansaikhan Shur
+# Machine Learning example Codes by Gansaikhan Shur
