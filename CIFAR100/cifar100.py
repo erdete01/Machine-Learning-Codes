@@ -48,6 +48,15 @@ epochs = 20  # Number of Epochs
 num_classes = 100  # Number of Output Classes
 
 #! NETWORK
+"""
+Overfitting is one of the biggest problems we face. Luckily, Dropout is a technique that addresses this problem.
+During the training process, it randomly drops units from the neural network.
+(More about overfitting can be found here http://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf)
+Batch Normalization normalizes the activation of the previous layer at each batch
+In other workds, it applies a transformation that maintains the mean activation close to 0 
+and the activation standard deviation close to 1.
+(More about Batch Normalization can be found here https://arxiv.org/abs/1502.03167)
+"""
 
 cifar100model = Sequential([
     Conv2D(32, kernel_size=(3, 3), activation='linear',
