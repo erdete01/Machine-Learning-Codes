@@ -114,7 +114,7 @@ plt.title('Training and validation loss')
 plt.legend()
 plt.show()
 
-fashion_model.save("cifar100modeldropout.h5py")
+cifar100model.save("cifar100modeldropout.h5py")
 
 #!PREDICTION
 predicted_classes = cifar100model.predict(x_test)
