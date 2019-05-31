@@ -19,8 +19,8 @@ fmnistData = keras.datasets.fashion_mnist
 #! Loading the Fashion MNIST Dataset
 (train_X, train_Y), (test_X, test_Y) = fmnistData.load_data()
 
-# print('Training data shape : ', train_X.shape, train_Y.shape)
-# print('Testing data shape : ', test_X.shape, test_Y.shape)
+print('Training data shape : ', train_X.shape, train_Y.shape)
+print('Testing data shape : ', test_X.shape, test_Y.shape)
 # plt.figure(figsize=[5, 5])
 # * Display the first image in training data
 # plt.subplot(121)
